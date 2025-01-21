@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:rowCount="5"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:background="@color/appBackgroundColor">
+
+    <!-- Affichage du résultat -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:background="@android:color/white"
+        android:gravity="end"
+        android:layout_rowWeight="0.5"/>
+
+    <!-- Ligne de boutons : 7, 8, 9, / -->
+    <Button
+        android:id="@+id/button7"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="7"/>
+        
+    <Button
+        android:id="@+id/button8"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="8"/>
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="9"/>
+        
+    <Button
+        android:id="@+id/buttonDivide"
+        style="@style/OperatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="/"/>
+
+    <!-- Ligne de boutons : 4, 5, 6, * -->
+    <Button
+        android:id="@+id/button4"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="4"/>
+        
+    <Button
+        android:id="@+id/button5"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="6"/>
+        
+    <Button
+        android:id="@+id/buttonMultiply"
+        style="@style/OperatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="*"/>
+
+    <!-- Ligne de boutons : 1, 2, 3, - -->
+    <Button
+        android:id="@+id/button1"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="1"/>
+        
+    <Button
+        android:id="@+id/button2"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="3"/>
+        
+    <Button
+        android:id="@+id/buttonSubtract"
+        style="@style/OperatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="-"/>
+
+    <!-- Ligne de boutons : 0, %, +, = -->
+    <Button
+        android:id="@+id/button0"
+        style="@style/CalculatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/buttonModulo"
+        style="@style/OperatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="%"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        style="@style/OperatorButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="+"/>
+
+    <Button
+        android:id="@+id/buttonEqual"
+        style="@style/EqualButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="0.5"
+        android:layout_columnWeight="1"
+        android:text="="/>
+
+</GridLayout>
