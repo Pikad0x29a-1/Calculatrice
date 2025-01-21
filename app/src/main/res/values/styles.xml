@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!-- Style pour les boutons numériques et les opérateurs -->
     <style name="CalculatorButton">
-        <item name="android:background">@color/buttonBackgroundColor</item>
+        <item name="android:background">@drawable/rounded_button</item> <!-- Utiliser le fond arrondi -->
         <item name="android:textColor">@color/buttonTextColor</item>
         <item name="android:padding">10dp</item>
         <item name="android:layout_margin">5dp</item>
@@ -15,12 +15,7 @@
     </style>
 
     <!-- Style pour le bouton égal -->
-    <style name="EqualButton">
-        <item name="android:background">@color/equalButtonBackgroundColor</item>
-        <item name="android:textColor">@color/buttonTextColor</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:elevation">2dp</item>
+    <style name="EqualButton" parent="CalculatorButton">
+        <item name="android:background">@drawable/rounded_equal_button</item> <!-- Utiliser le fond arrondi spécifique -->
     </style>
-
 </resources>

@@ -14,14 +14,14 @@
     <TextView
         android:id="@+id/textViewResult"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="5dp"
+        android:layout_rowWeight="1.5"
         android:layout_columnSpan="4"
         android:layout_gravity="fill"
-        android:padding="16dp"
-        android:textSize="24sp"
         android:background="@android:color/white"
         android:gravity="end"
-        android:layout_rowWeight="0.5"/>
+        android:padding="16dp"
+        android:textSize="24sp" />
 
     <!-- Ligne de boutons : 7, 8, 9, / -->
     <Button
@@ -168,7 +168,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_rowWeight="0.5"
-        android:layout_columnWeight="1"
+        android:layout_columnWeight="0.5"
         android:text="="/>
 
 </GridLayout>

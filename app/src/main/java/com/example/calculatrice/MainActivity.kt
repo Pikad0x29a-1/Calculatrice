@@ -30,14 +30,14 @@ class MainActivity : ComponentActivity() {
             R.id.button8, R.id.button9, R.id.buttonModulo
         )
         buttons.forEach { id ->
-            findViewById<Button>(id).setOnClickListener { numberClicked(it) }
+            findViewById<Button>(id).setOnClickListener { numberClicked(it as Button) }
         }
         val operatorButtons = listOf(
             R.id.buttonAdd, R.id.buttonSubtract,
             R.id.buttonMultiply, R.id.buttonDivide, R.id.buttonModulo
         )
         operatorButtons.forEach { id ->
-            findViewById<Button>(id).setOnClickListener { operatorClicked(it) }
+            findViewById<Button>(id).setOnClickListener { operatorClicked(it as Button) }
         }
         findViewById<Button>(R.id.buttonEqual).setOnClickListener { calculateResult() }
     }
