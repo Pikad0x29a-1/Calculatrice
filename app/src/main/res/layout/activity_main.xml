@@ -21,7 +21,8 @@
         android:background="@android:color/white"
         android:gravity="end"
         android:padding="16dp"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="@android:color/black" /> 
 
     <!-- Ligne de boutons : 7, 8, 9, / -->
     <Button
