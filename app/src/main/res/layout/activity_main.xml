@@ -18,11 +18,11 @@
         android:layout_rowWeight="1.5"
         android:layout_columnSpan="4"
         android:layout_gravity="fill"
-        android:background="@android:color/black" <!-- Fond noir -->
+        android:background="@android:color/black" 
         android:gravity="end|bottom"
         android:padding="16dp"
         android:textSize="24sp"
-        android:textColor="@color/buttonTextColor"/> <!-- Texte blanc -->
+        android:textColor="@color/buttonTextColor"/> 
 
     <!-- Ligne de boutons : 7, 8, 9, / -->
     <Button
